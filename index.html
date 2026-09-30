@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison de Haute Parfumerie | Fragrances Rares</title>
+    <!-- Google Fonts: Luxury High Perfumery Typographies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Italiana&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="header" id="header">
+        <div class="header-container">
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Reserved White Circle for Logo -->
+            <a href="#home" class="logo-wrapper" title="Accueil">
+                <div class="logo-circle" id="logoCircle">
+                    <!-- Si vous avez votre image de logo, nommez-la logo.png dans le dossier images/ -->
+                    <img src="images/logo.png" alt="Logo" class="logo-img" id="logoImg" onerror="this.style.display='none'; document.getElementById('logoFallback').style.display='flex';">
+                    <span class="logo-fallback" id="logoFallback">M</span>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">MAISON ÉLIXIR</span>
+                    <span class="brand-tagline" data-i18n="nav.tagline">Haute Parfumerie</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" data-i18n="nav.home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collections" class="nav-link" data-i18n="nav.collections">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link" data-i18n="nav.shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-i18n="nav.about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Actions : Language Switcher & Cart -->
+            <div class="nav-actions">
+                <!-- Language Switcher -->
+                <div class="lang-switch-dropdown">
+                    <button class="action-btn lang-btn" id="langToggleBtn" title="Changer de langue / Change Language" aria-expanded="false">
+                        <i class="fa-solid fa-globe"></i>
+                        <span class="current-lang" id="currentLangLabel">FR</span>
+                        <i class="fa-solid fa-chevron-down lang-chevron"></i>
+                    </button>
+                    <div class="lang-menu" id="langMenu">
+                        <button class="lang-option active" data-lang="fr">
+                            <span class="flag">🇫🇷</span> Français
+                        </button>
+                        <button class="lang-option" data-lang="en">
+                            <span class="flag">🇬🇧</span> English
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Shopping Cart Icon -->
+                <button class="action-btn cart-btn" id="cartToggleBtn" title="Panier" aria-label="Panier">
+                    <div class="cart-icon-wrapper">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="cart-badge" id="cartCountBadge">0</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-left-wrapper">
+                <span class="hero-pretitle" data-i18n="hero.pretitle">Maison de Haute Parfumerie</span>
+                <h1 class="hero-title" data-i18n="hero.title">Pure Élégance</h1>
+                <div class="hero-divider">
+                    <span class="diamond"></span>
+                </div>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    L'harmonie d'essences rares et du savoir-faire artisanal. Une signature olfactive unique, façonnée pour traverser le temps.
+                </p>
+                <div class="hero-actions">
+                    <a href="#collections" class="btn btn-primary">
+                        <span data-i18n="hero.btnExplore">Découvrir la Collection</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <a href="#collections" class="scroll-indicator" aria-label="Défiler vers le bas">
+                <span data-i18n="hero.scroll">Découvrir</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Preview Showcase Section -->
+        <section class="section showcase-section" id="collections">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle" data-i18n="showcase.subtitle">Sélection Prestige</span>
+                    <h2 class="section-title" data-i18n="showcase.title">Nos Fragrances Iconiques</h2>
+                    <div class="hero-divider"><span class="diamond"></span></div>
+                    <p class="section-desc" data-i18n="showcase.desc">
+                        Des accords d’ambre précieux, de rose de mai et d’oud mystérieux, conçus pour éveiller les sens.
+                    </p>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Cards will be rendered by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Slide-over Cart Drawer -->
+    <div class="cart-drawer-backdrop" id="cartBackdrop"></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Panier d'achat">
+        <div class="cart-drawer-header">
+            <div class="cart-drawer-title">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3 data-i18n="cart.title">Votre Panier</h3>
+                <span class="cart-count-pill" id="cartItemsQty">0</span>
+            </div>
+            <button class="cart-close-btn" id="cartCloseBtn" aria-label="Fermer le panier">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="cart-drawer-body" id="cartDrawerBody">
+            <!-- Dynamic Cart Items or Empty State -->
+            <div class="cart-empty-state" id="cartEmptyState">
+                <div class="empty-icon-circle">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <h4 data-i18n="cart.emptyTitle">Votre panier est encore vide</h4>
+                <p data-i18n="cart.emptyDesc">Explorez nos créations et laissez-vous tenter par une fragrance signature.</p>
+                <a href="#collections" class="btn btn-outline" id="cartDiscoverBtn" data-i18n="cart.discover">
+                    Explorer la boutique
+                </a>
+            </div>
+            <div class="cart-items-list" id="cartItemsList"></div>
+        </div>
+
+        <div class="cart-drawer-footer" id="cartDrawerFooter">
+            <div class="cart-subtotal-row">
+                <span data-i18n="cart.subtotal">Sous-total :</span>
+                <span class="cart-subtotal-price" id="cartSubtotal">0 DH</span>
+            </div>
+            <p class="cart-shipping-note" data-i18n="cart.shippingNote">Livraison offerte et coffret d'échantillons offert dès 1 000 DH au Maroc.</p>
+            <button class="btn btn-primary btn-block checkout-btn" data-i18n="cart.checkout">
+                Passer la Commande
+                <i class="fa-solid fa-lock"></i>
+            </button>
+        </div>
+    </aside>
+
+    <div class="checkout-backdrop" id="checkoutBackdrop" aria-hidden="true">
+        <section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+            <button type="button" class="checkout-close" id="checkoutClose" aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+            <span class="section-subtitle">Maison Élixir</span>
+            <h2 id="checkoutTitle">Finaliser votre commande</h2>
+            <p class="checkout-intro">Remplissez vos coordonnées. Votre récapitulatif sera envoyé par WhatsApp.</p>
+            <form id="checkoutForm">
+                <label>Nom complet<input name="name" autocomplete="name" required maxlength="100" placeholder="Votre nom et prénom"></label>
+                <label>Téléphone<input name="phone" type="tel" autocomplete="tel" required pattern="(?:\+212|0)(?:[5-7])\d{8}" title="Entrez un numéro marocain, par exemple 0712345678" placeholder="06 ou 07... "></label>
+                <label>Ville<input name="city" autocomplete="address-level2" required maxlength="80" placeholder="Votre ville"></label>
+                <label>Adresse de livraison<textarea name="address" autocomplete="street-address" required rows="3" maxlength="240" placeholder="Quartier, rue, numéro..."></textarea></label>
+                <label>Note pour la commande <span class="optional-label">(facultatif)</span><textarea name="note" rows="2" maxlength="240" placeholder="Précisions éventuelles"></textarea></label>
+                <button class="btn btn-primary btn-block" type="submit">Confirmer sur WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+            </form>
+        </section>
+    </div>
+    <!-- Product Details Modal (Quick View & Olfactory Pyramid) -->
+    <div class="product-modal-backdrop" id="productModalBackdrop"></div>
+    <div class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fermer les détails">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="product-modal-content" id="productModalContent">
+            <!-- Injected dynamically by JS -->
+        </div>
+    </div>
+
+    <!-- Toast Notification for Add to Cart -->
+    <div class="toast-notification" id="toastNotification">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMsg">Article ajouté au panier</span>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

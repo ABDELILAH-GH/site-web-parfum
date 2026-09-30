@@ -1,0 +1,103 @@
+[
+  {
+    "id": "parfum-1",
+    "name": "Élixir d'Or",
+    "category": "Extrait de Parfum",
+    "image": "images/collections/elixir-dor.jpg",
+    "price": 1850,
+    "sizes": [
+      { "size": "50 ml", "price": 1250 },
+      { "size": "100 ml", "price": 1850 }
+    ],
+    "tag": "Bestseller",
+    "icon": "fa-wine-bottle",
+    "color": "#d4af37",
+    "notes_fr": "Ambre précieux, Vanille de Madagascar & Bois de Santal",
+    "notes_en": "Precious Amber, Madagascar Vanilla & Sandalwood",
+    "desc_fr": "Une création solaire et envoûtante, où l'or liquide de l'ambre rencontre la sensualité gourmande de la vanille Bourbon et la profondeur boisée du santal de Mysore.",
+    "desc_en": "A radiant and mesmerizing creation where liquid amber meets the gourmand sensuality of Bourbon vanilla and the woody depth of Mysore sandalwood.",
+    "pyramid": {
+      "top_fr": "Bergamote dorée, Baies roses, Élémi",
+      "top_en": "Golden Bergamot, Pink Peppercorn, Elemi",
+      "heart_fr": "Ambre précieux, Encens royal, Jasmin d'Égypte",
+      "heart_en": "Precious Amber, Royal Incense, Egyptian Jasmine",
+      "base_fr": "Vanille Bourbon de Madagascar, Santal crémeux, Muscs",
+      "base_en": "Madagascar Bourbon Vanilla, Creamy Sandalwood, Musks"
+    }
+  },
+  {
+    "id": "parfum-2",
+    "name": "Nuit Céleste",
+    "category": "Eau de Parfum",
+    "price": 1450,
+    "sizes": [
+      { "size": "50 ml", "price": 950 },
+      { "size": "100 ml", "price": 1450 }
+    ],
+    "tag": "Signature",
+    "icon": "fa-spray-can-sparkles",
+    "color": "#3a3d52",
+    "notes_fr": "Rose de Mai, Oud Sauvage, Safran & Encens Royal",
+    "notes_en": "May Rose, Wild Oud, Saffron & Royal Incense",
+    "desc_fr": "Un hommage poétique aux nuits d'Orient. La fraîcheur veloutée de la rose centifolia s'embrase au contact du oud sauvage de 沈 et de filaments précieux de safran.",
+    "desc_en": "A poetic homage to mystical Arabian nights. The velvety freshness of centifolia rose ignites upon contact with wild oud and filaments of precious saffron.",
+    "pyramid": {
+      "top_fr": "Safran impérial, Cardamome noire, Poivre fumé",
+      "top_en": "Imperial Saffron, Black Cardamom, Smoked Pepper",
+      "heart_fr": "Rose de Mai de Grasse, Cuir tanné, Géranium",
+      "heart_en": "Grasse May Rose, Tanned Leather, Geranium",
+      "base_fr": "Oud sauvage du Cambodge, Ambre gris, Patchouli noir",
+      "base_en": "Wild Cambodian Oud, Ambergris, Dark Patchouli"
+    }
+  },
+  {
+    "id": "parfum-3",
+    "name": "Santal Impérial",
+    "category": "Extrait de Parfum",
+    "price": 2100,
+    "sizes": [
+      { "size": "50 ml", "price": 1400 },
+      { "size": "100 ml", "price": 2100 }
+    ],
+    "tag": "Édition Limitée",
+    "icon": "fa-gem",
+    "color": "#8c6721",
+    "notes_fr": "Bergamote de Calabre, Vétiver fumé & Cèdre de l'Atlas",
+    "notes_en": "Calabrian Bergamot, Smoked Vetiver & Atlas Cedar",
+    "desc_fr": "Une œuvre boisée monumentale et raffinée. Le cèdre ancestral de l'Atlas marocain fusionne avec les vibrations terreuses du vétiver et l'éclat hespéridé de la Calabre.",
+    "desc_en": "A monumental and refined woody masterpiece. Ancient Moroccan Atlas cedar fuses with the earthy vibrations of vetiver and Calabrian citrus brilliance.",
+    "pyramid": {
+      "top_fr": "Bergamote de Calabre, Mandarine sanguine, Cyprès",
+      "top_en": "Calabrian Bergamot, Blood Mandarin, Cypress",
+      "heart_fr": "Cèdre de l'Atlas, Iris de Florence, Noix de muscade",
+      "heart_en": "Atlas Cedar, Florentine Iris, Nutmeg",
+      "base_fr": "Santal impérial, Vétiver de Haïti, Benjoin de Siam",
+      "base_en": "Imperial Sandalwood, Haitian Vetiver, Siam Benzoin"
+    }
+  },
+  {
+    "id": "parfum-4",
+    "name": "Fleur de Soie",
+    "category": "Eau de Parfum",
+    "price": 1350,
+    "sizes": [
+      { "size": "50 ml", "price": 890 },
+      { "size": "100 ml", "price": 1350 }
+    ],
+    "tag": "Nouveau",
+    "icon": "fa-seedling",
+    "color": "#d98282",
+    "notes_fr": "Jasmin Sambac, Néroli solaire, Musc blanc & Pivoine",
+    "notes_en": "Sambac Jasmine, Solar Neroli, White Musk & Peony",
+    "desc_fr": "Une caresse aérienne d'une douceur infinie. Un bouquet floral lumineux enveloppé d'un voile de mousseline de soie et de néroli gorgé de soleil méditerranéen.",
+    "desc_en": "An ethereal caress of infinite softness. A radiant floral bouquet wrapped in a veil of silk chiffon and sun-drenched Mediterranean neroli.",
+    "pyramid": {
+      "top_fr": "Néroli de Tunisie, Pivoine rosée, Poire blanche",
+      "top_en": "Tunisian Neroli, Dewy Peony, White Pear",
+      "heart_fr": "Jasmin Sambac nocturne, Fleur d'oranger, Magnolias",
+      "heart_en": "Night-blooming Sambac Jasmine, Orange Blossom, Magnolia",
+      "base_fr": "Musc blanc cotonneux, Bois de cachemire, Ambrette",
+      "base_en": "Cotton White Musk, Cashmere Wood, Ambrette"
+    }
+  }
+]
